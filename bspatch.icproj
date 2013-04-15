@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="11.1"
+	Name="bspatch"
+	ProjectGUID="{4AF1B244-12E4-46BB-80DA-9B397C32E129}"
+	VCNestedProjectGUID="{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}"
+	VCNestedProjectFileName="bspatch.vcproj">
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

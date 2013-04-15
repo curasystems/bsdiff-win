@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="11.1"
+	Name="bsdiff"
+	ProjectGUID="{77586FAC-95FD-414A-AA53-76041928186C}"
+	VCNestedProjectGUID="{D4D91923-16CC-4F82-BA76-047121DC6F52}"
+	VCNestedProjectFileName="bsdiff.vcproj">
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>
