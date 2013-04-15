@@ -257,10 +257,10 @@ int main(int argc,char *argv[])
 	//	(close(fd)==-1)) err(1,"%s",argv[1]);
 	//new:
 	//Read in chunks, don't rely on read always returns full data!
-	if(((fd=open(argv[1],O_RDONLY|O_BINARY|O_NOINHERIT,0))<0) ||
+	if(((fd=_open(argv[1],O_RDONLY|O_BINARY|O_NOINHERIT,0))<0) ||
 		((oldsize=lseek(fd,0,SEEK_END))==-1) ||
 		((old=(u_char*)malloc(oldsize+1))==NULL) ||
-		(lseek(fd,0,SEEK_SET)!=0))
+		(_lseek(fd,0,SEEK_SET)!=0))
 				err(1,"%s",argv[1]);
 	int r=oldsize;
 	while (r>0 && (i=read(fd,old+oldsize-r,r))>0) r-=i;

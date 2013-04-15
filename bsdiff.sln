@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bsdiff", "bsdiff.vcproj", "{D4D91923-16CC-4F82-BA76-047121DC6F52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bspatch", "bspatch.vcproj", "{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D91923-16CC-4F82-BA76-047121DC6F52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4D91923-16CC-4F82-BA76-047121DC6F52}.Debug|Win32.Build.0 = Debug|Win32
+		{D4D91923-16CC-4F82-BA76-047121DC6F52}.Release|Win32.ActiveCfg = Release|Win32
+		{D4D91923-16CC-4F82-BA76-047121DC6F52}.Release|Win32.Build.0 = Release|Win32
+		{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}.Debug|Win32.Build.0 = Debug|Win32
+		{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}.Release|Win32.ActiveCfg = Release|Win32
+		{72A8EF7F-85A6-4EE6-A465-59C38E1F8A20}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -4,6 +4,7 @@
 # Libraries
 *.lib
 *.a
+*.obj
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -12,6 +13,15 @@
 *.dylib
 
 # Executables
-*.exe
+Debug
 *.out
 *.app
+
+# Intermediaries
+BuildLog.htm
+*.manifest
+mt.dep
+*.idb
+*.suo
+*.user
+*.ncb
